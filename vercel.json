@@ -1,5 +1,7 @@
 {
   "version": 2,
-  "builds": [{ "src": "BD_6Assignment/server.js", "use": "@vercel/node" }],
-  "rewrites": [{ "source": "/(.*)", "destination": "BD_6Assignment/server.js" }]
+  "builds": [{ "src": "BD_6 Assignment/server.js", "use": "@vercel/node" }],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "BD_6 Assignment/server.js" }
+  ]
 }
